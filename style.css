@@ -1,127 +1,138 @@
-        body {
-            font-family: "arial", cursive;
-            background-color: silver;
-            color: white;
-        }
-        
-        @font-face {
-           font-family: 'PureHeart';
-           src: url('https://raw.githubusercontent.com/MSVerse/TheatN/master/PureHeart-Regular.ttf') format('truetype');
-        }
-        
-        @font-face {
-           font-family: 'GoldplayAlt';
-           src: url('https://raw.githubusercontent.com/MSVerse/TheatN/master/GoldplayAlt-LightIt.ttf') format('truetype');
-        }
+/* Link CSS utama */
+@import url('https://raw.githubusercontent.com/MSVerse/msvfm/main/style.css');
 
-        .content {
-           width: 1%;           
-        }
+/* Global Styles */
+body {
+    font-family: "Arial", cursive;
+    background-color: silver;
+    color: white;
+}
 
-        #content tr:hover {
-            background-color: orange;
-            text-shadow: 0px 0px 10px #fff;
-        }
+/* Font-Face Definitions */
+@font-face {
+    font-family: 'PureHeart';
+    src: url('https://raw.githubusercontent.com/MSVerse/TheatN/master/PureHeart-Regular.ttf') format('truetype');
+}
 
-        #content .first {
-            background-color: orange;
-        }
+@font-face {
+    font-family: 'GoldplayAlt';
+    src: url('https://raw.githubusercontent.com/MSVerse/TheatN/master/GoldplayAlt-LightIt.ttf') format('truetype');
+}
 
-        table {
-            width: 100%;
-            border: 1px #000000 dotted;
-        }
+/* Content Styles */
+.content {
+    width: 1%;
+}
 
-        a {
-            color: white;
-            text-decoration: none;
-        }
+#content tr:hover {
+    background-color: orange;
+    text-shadow: 0px 0px 10px #fff;
+}
 
-        a:hover {
-            color: blue;
-            text-shadow: 0px 0px 10px #ffffff;
-        }
+#content .first {
+    background-color: orange;
+}
 
-        input,
-        select,
-        textarea {
-            border: 1px #000000 solid;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            border-radius: 5px;
-        }
+/* Table Styles */
+table {
+    width: 100%;
+    border: 1px dotted #000;
+}
 
-        textarea {
-            width: 100%;
-            height: 200px;
-        }
+/* Link Styles */
+a {
+    color: white;
+    text-decoration: none;
+}
 
-        form {
-            margin-bottom: 20px;
-        }
-        
-        .judul {
-            font-family: 'PureHeart';
-            font-size: 50px;
-            display: grid;
-            place-items: center;
-            height: 3vh;
-            color: green;
-        }
-        
-        .judul a {
-           color: green;
-        }
-        
-        .subjudul {
-            display: grid;
-            place-items: center;
-            color: white;
-            font-family: 'GoldplayAlt';        
-        }
-        
-        .info {
-            float: right;
-            margin-right: 20px;
-            margin-top: 0;
-            clear: both;
-        }
-        
-        .upload {
-            display: inline-block;            
-            margin-right: 20px;
-            cursor: pointer;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 14px;
-            float: right;
-            clear: both;
-        }        
-        
-        .icon-folder {
-            color: orange;
-        }
-        
-        .icon-file {
-            color: blue; 
-        }
-        
-        .icon-menu {
-            color: green;
-        }
-        
-        .icon-info {
-            color: green;
-        }
-        
-        .first {
-           font-size: 20px;
-           color: green;
-           background-color: white;
-           font-family: 'GoldplayAlt';
-        }
-        
-        .two {
-           background-color: white;
-        }
+a:hover {
+    color: blue;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+/* Form Styles */
+input,
+select,
+textarea {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+/* Heading Styles */
+.judul {
+    font-family: 'PureHeart';
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+    height: 3vh;
+    color: green;
+}
+
+.judul a {
+    color: green;
+}
+
+.subjudul {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: 'GoldplayAlt';
+}
+
+/* Additional Styles */
+.info {
+    float: right;
+    margin-right: 20px;
+    margin-top: 0;
+    clear: both;
+}
+
+.upload {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    float: right;
+    clear: both;
+}
+
+/* Icon Styles */
+.icon-folder {
+    color: orange;
+}
+
+.icon-file {
+    color: blue;
+}
+
+.icon-menu {
+    color: green;
+}
+
+.icon-info {
+    color: green;
+}
+
+/* Table Row Styles */
+.first {
+    font-size: 20px;
+    color: green;
+    background-color: white;
+    font-family: 'GoldplayAlt';
+}
+
+.two {
+    background-color: white;
+}
